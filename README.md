@@ -1,4 +1,4 @@
-https://gleasalex-png.github.io/philly-urban-forestry-analysis/
+https://gleasonat0r.github.io/philly-urban-forestry-analysis/
 
 Technical Methodology: Spatial Aggregation in PostGIS
 
