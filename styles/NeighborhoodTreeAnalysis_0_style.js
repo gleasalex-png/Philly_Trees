@@ -17,8 +17,10 @@ var style_NeighborhoodTreeAnalysis_0 = function(feature, resolution){
     var offsetX = 0;
     var offsetY = 0;
     var placement = 'point';
-    if ("" !== null) {
-        labelText = String("");
+    if (feature.get("neighborhood_name") !== null && resolution < 40.0) {
+        labelText = String(feature.get("neighborhood_name"));
+    } else {
+        labelText = "";
     }
     if (value >= 0.000000 && value <= 500.000000) {
             style = [ new ol.style.Style({
